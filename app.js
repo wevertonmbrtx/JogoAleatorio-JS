@@ -19,9 +19,9 @@ exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10!');
 function verificarChute() {
     let chute = document.querySelector('input');
     if (numeroSecreto === chute) {
-        exibirTextoNaTela('p', 'Parabéns! Você acertou!');
+        exibirTextoNaTela('p', 'Parabéns! Você acertou');
     } else {
-        exibirTextoNaTela('p', 'Que pena! Você errou!');
+        exibirTextoNaTela('p', 'Que pena! Você errou');
     }
     console.log('O botão foi clicado.');
 }
